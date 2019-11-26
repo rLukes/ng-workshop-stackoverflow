@@ -1,1 +1,16 @@
-<p>register works!</p>
+<div id="registerDiv">
+  <form>
+    <label for="txtEmail">Email:</label>
+    <input type="text" id="txtEmail" [(ngModel)]="email" />
+    <br />
+    <label for="txtName">Name:</label>
+    <input type="text" id="txtName" [(ngModel)]="name" />
+    <br />
+    <label for="txtMobile">Mobile:</label>
+    <input type="text" id="txtMobile" [(ngModel)]="mobile" />
+    <br />
+    <label for="txtAge">Age:</label>
+    <input type="text" id="txtAge" [(ngModel)]="age" />
+    <input type="submit" value="Register" />
+  </form>
+</div>
