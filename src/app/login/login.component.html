@@ -1,1 +1,10 @@
-<p>login works!</p>
+<div id="loginDiv">
+  <h4>Login</h4>
+  <form>
+    Email: <input type="text" [(ngModel)]="email" name="email" /><br />
+    Password:
+    <input type="password" [(ngModel)]="password" name="password" /><br />
+    <input type="submit" value="Login" (click)="onLoginClick()" />
+    {{ message }}
+  </form>
+</div>
