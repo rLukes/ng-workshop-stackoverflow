@@ -1,13 +1,15 @@
 <div>
   <div id="header">
     <h3>Stackoverflow</h3>
-    <a href="#">Home</a>
-    <a href="#">Login</a>
-    <a href="#">Register</a>
-    <a href="#">Questions</a>
-    <a href="#">New Questions</a>
-    <a href="#">View Questions</a>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/login"> Login</a>
+    <a routerLink="/register"> Register</a>
+    <a routerLink="/questions"> Questions</a>
+    <a routerLink="/newquestion"> New Questions</a>
+    <a routerLink="/viewquestion"> View Questions</a>
   </div>
-  <div id="pageconten">pagecontent</div>
+  <div id="pageconten">
+    <router-outlet></router-outlet>
+  </div>
   <div id="footer">footer</div>
 </div>
